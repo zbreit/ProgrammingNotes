@@ -1,6 +1,6 @@
 ---
 title: CSS Grid Notes
-tags: [Notebooks/Learning Code/CSS]
+tags: [Notebooks/CSS]
 ---
 
 # CSS Grid Notes

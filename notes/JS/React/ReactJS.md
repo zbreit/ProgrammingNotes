@@ -1,6 +1,6 @@
 ---
 title: ReactJS
-tags: [Notebooks/Learning Code/ReactJS]
+tags: [Notebooks/JS]
 ---
 
 # ReactJS

@@ -1,6 +1,6 @@
 ---
 title: Flexbox Notes
-tags: [Notebooks/Learning Code/CSS]
+tags: [Notebooks/CSS]
 ---
 
 # Flexbox Notes

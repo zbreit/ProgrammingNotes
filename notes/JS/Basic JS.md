@@ -35,14 +35,21 @@ z[0] = "h"; // z is still "jello"
 var arr = [23, "hi", undefined, null];
 ```
 ### Array Methods
- - `.push()`
+ - `.push(a, b, c, ...)`
     - Append elements to the end of the array
  - `.pop()`
     - Remove the last element of the array and return it
  - `.shift()`
     - Remove the first element of the array and return it
- - `.unshift()`
-    - Add an element at the front of the array
+ - `.unshift(a, b, c, ...)`
+    - Add elements to the front of the array
+ - `.splice(start, numElements)`
+    - Remove `numElements` from the array starting at index `start`
+ - `.splice(start, numElements, a, b, c, ...)`
+    - Replace `numElements` in the array with new values. Start replacing at index `start`
+ - `.slice(start = 0, end = arr.length - 1)`
+    - Extract elements from the array, starting at `start` and ending 1 element before `end`
+       - The original array is not changed
 ## Functions
  - Basic method to define functions:
 ```js

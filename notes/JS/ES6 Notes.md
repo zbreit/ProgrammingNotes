@@ -15,7 +15,7 @@ x = 3.14; // throws an error because x is not declared
 
 ## Let vs. Var
  - **Naming Conflicts**
-    - Using `var`, you can override other variables with the same name:
+    - Using `var`, you can override other variables with the same name
     - `let` will throw an error if there's a naming conflict
 ```js
 var dave = "10";
@@ -80,7 +80,7 @@ const square = num => num*num;
 ## Array Methods
  - `.map(func)`
     - Returns a new array that replaces every value in the original array with `func(val)`
- - `arr.filter(testFunc)`
+ - `.filter(testFunc)`
     - Returns a new array that only includes values from the original array such that `testFunc(val) === true`
 ## Default Parameters
  - All parameters with default values must go after parameters without default args
@@ -203,7 +203,7 @@ const obj = getObj(3, 4); // obj = {x: 3, y: 4}
  - Instead of this:
 ```js
 const obj = {
-  name: "Zach"
+  name: "Zach",
   foo: function() {
     ...
   }
@@ -212,7 +212,7 @@ const obj = {
  - You can do this:
  ```js
 const obj = {
-  name: "Zach"
+  name: "Zach",
   foo() {
     ...
   }

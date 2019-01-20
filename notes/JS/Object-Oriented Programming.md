@@ -39,7 +39,7 @@ console.log(actualBird.constructor === Bird); // true
 ## Prototype
  - Every constructor has a `prototype` object attached to it that is shared between all instances of that constructor function
     - This is useful if there is a piece of information shared between all objects made by that constructor
-       - Ex. A `Bird` object always has a `numWings` value of `2`. So we can assign that to the prototype instead of storing a seaprate value in every `Bird`
+       - Ex. A `Bird` object always has a `numWings` value of `2`. So we can assign that to the prototype instead of storing a separate value in every `Bird`
 ```js
 function Bird(name) {...}
 Bird.prototype = {
@@ -53,7 +53,7 @@ Bird.prototype = {
 let myPetBird = new Bird('hi');
 console.log(myPetBird.numWings); // 2
 ```
-- ***NOTE:*** When you define a `prototype` as an object (instead of using dot notation to assign each property), *you make the constructor property `undefined`*.
+- ***NOTE:*** When you define a `prototype` as an object (instead of using dot notation to assign each property of `prototype`), *you make the constructor property `undefined`*.
    - To fix this, simply add a `constructor` property in the prototype definition
 ```js
 Bird.prototype = {
